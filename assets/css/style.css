@@ -33,6 +33,8 @@ header {
     text-align: center;
     position: relative;
     bottom: -44px;
+    border: 0px;
+    border-radius: 3px;
 }
  
 	 
@@ -85,6 +87,9 @@ section {
     margin: 40px 35px 60px 30px;
     padding: 20px;
 
+    border: 0px;
+    border-radius: 6px;
+
   
 }
 
@@ -116,25 +121,36 @@ aside {
     margin-top: 40px;
     /* border: red 2px solid; */
     background: #ffffff;
+    border: 0px;
+    border-radius: 6px;
 }
 
+.pictures{
+    margin: 20px ;
 
+}
 
 #links{
     
     margin-left: 20px;
+
 }
 
 #github{
     margin-right: 5px; 
+    cursor: pointer;
 }
 
 #linkedin{
+    cursor: pointer;
     margin-right: 5px; 
 }
 
 #forms{
     color: #777777;
+
+    border: 0px;
+    border-radius: 6px;
     
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -169,6 +185,8 @@ button
      font-size: 17px;
      margin-bottom: 10px;
     color: #ffffff;
+    cursor: pointer;
+    border-radius: 6px;
 
 }
 
