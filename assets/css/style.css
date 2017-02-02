@@ -16,7 +16,7 @@ body {
 header {
     background-color: #ffffff;
     margin: 0;
-    border-bottom: 2px #cccccc solid;
+    border-bottom: 2.5px #cccccc solid;
     height: 110px;
 }
 	
@@ -45,18 +45,35 @@ nav {
     background: #ffffff;
     position: relative;
     color: #cccccc;
-     opacity: 0.8;
+    opacity: 0.8;
     left: -55px;
     text-decoration: none !important
 }
 
-#about{ margin-right: 10px;
+#about{ 
+    margin-right: 10px;
     padding-right: 10px;
-border-right: 1px #cccccc solid;    }
+    color: #cccccc;
+    opacity: 0.9;
+    border-right: 1px #cccccc solid; 
 
-#portfolio { margin-right: 10px;
+  }
+
+
+#portfolio { 
+    margin-right: 10px;
     padding-right: 10px;
-border-right: 1px #cccccc solid;    }
+    color: #cccccc;
+    opacity: 0.9;
+    border-right: 1px #cccccc solid;    
+
+}
+
+#contact {
+    color: #cccccc;
+    opacity: 0.9;
+}
+
 h2 { color: #4aaaa5; }
 
 section {
@@ -65,9 +82,7 @@ section {
     width: 610px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #ffffff;
-    margin-left: 30px;
-    margin-right: 35px;
-    margin-top: 40px;
+    margin: 40px 35px 60px 30px;
     padding: 20px;
 
   
@@ -118,12 +133,50 @@ aside {
     margin-right: 5px; 
 }
 
+#forms{
+    color: #777777;
+    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
+.box{
+    margin: 7px 0px 20px 0px;
+    padding: 4px;
+    border: 1px solid #cccccc;
+
+    outline: none;
+    box-shadow: 0px 0px 3px 1px #c8def0;
+}
+}
+
+.box:focus {
+    border: 1px solid #56b4ef;
+    box-shadow: 0px 0px 3px 1px #c8def0;
+}
+
+#messagebox{
+    margin: 7px 0px 20px 0px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button
+{ 
+    background-color: #4aaaa5;
+    border: 0;
+    padding: 8px 25px 8px;
+     font-size: 17px;
+     margin-bottom: 10px;
+    color: #ffffff;
+
+}
 
 footer {
     clear: both;
+
 	background-color: #666666;
-    
+   
     width: 100%;
     
     
