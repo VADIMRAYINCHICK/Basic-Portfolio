@@ -40,15 +40,23 @@ header {
 
 
 nav {
-     border: red 2px solid; 
+    
     float: right;
     background: #ffffff;
     position: relative;
-    
+    color: #cccccc;
+     opacity: 0.8;
     left: -55px;
     text-decoration: none !important
 }
 
+#about{ margin-right: 10px;
+    padding-right: 10px;
+border-right: 1px #cccccc solid;    }
+
+#portfolio { margin-right: 10px;
+    padding-right: 10px;
+border-right: 1px #cccccc solid;    }
 h2 { color: #4aaaa5; }
 
 section {
@@ -65,9 +73,20 @@ section {
   
 }
 
-article {
+.hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+#text {
     float: left;
 }
+
+#face {
+    float: left;
+    margin-right: 20px; 
+  }
 
 aside {
      display: inline-block;
@@ -99,7 +118,7 @@ aside {
     margin-right: 5px; 
 }
 
-}
+
 
 footer {
     clear: both;
