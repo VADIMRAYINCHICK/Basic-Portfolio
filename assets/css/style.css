@@ -4,8 +4,9 @@ body {
      width: 960px; 
      margin: 0;
      padding: 0;
+    color: #777777;
      margin-left:auto;
-    margin-right:auto;
+     margin-right:auto;
     
       
 }
@@ -23,11 +24,13 @@ header {
 	 h1 {
     margin: 0;
     background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;;
     margin-bottom: 0;
-    margin-left: 20px;
-    margin-right: 611px;
+    margin-left: 30px;
+    margin-right: 563px;
     padding: 15px;
     color: #ffffff;
+    text-align: center;
     position: relative;
     bottom: -44px;
 }
@@ -41,46 +44,92 @@ nav {
     float: right;
     background: #ffffff;
     position: relative;
-    top: -24px;
+    
     left: -55px;
-    text-decoration: none;
+    text-decoration: none !important
 }
 
-
+h2 { color: #4aaaa5; }
 
 section {
-  width: 650px;
-  background: #ffffff;
+        display: inline-block;
+    float: left;
+    width: 610px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    margin-left: 30px;
+    margin-right: 35px;
+    margin-top: 40px;
+    padding: 20px;
 
   
 }
 
+article {
+    float: left;
+}
+
 aside {
-	width: 270px;
-	border: red 2px solid;
-	background: #ffffff;
+     display: inline-block;
+    float: left;
+    width: 200px;
+    padding: 20px;
+    font-size: 14px;
+    padding-top: 0px;
+    align-content: center;
+    
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 40px;
+    /* border: red 2px solid; */
+    background: #ffffff;
+}
+
+
+
+#links{
+    
+    margin-left: 20px;
+}
+
+#github{
+    margin-right: 5px; 
+}
+
+#linkedin{
+    margin-right: 5px; 
+}
 
 }
 
 footer {
+    clear: both;
 	background-color: #666666;
+    
+    width: 100%;
+    
+    
 
+    border-top:  #4aaaa5 10px solid; 
+    margin: 0
 }
 
 #footer_cointainer {
 
 	margin: 0 auto;
-	padding-top: 2%;
+    padding: 3%;
+    height: 100px;
+    
 
 }
 
-.copyright_text{
-	font-family: 'Helvetica Neue', sans-serif;
-	font-weight: 400;
-	padding-top: 2%;
+.copyright_text  {
+	
+	
+    margin: 0 auto;
+	padding: 3%;
 	text-align: center;
-	font-size: 14px;
-	color: #777777;
+	font-size: 10px;
+	color: #e6e6e6;
 	letter-spacing: 0.1em;
 	line-height: 1.5em;
 
