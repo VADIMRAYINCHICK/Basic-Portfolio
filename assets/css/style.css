@@ -4,7 +4,7 @@ body {
      width: 960px; 
      margin: 0;
      padding: 0;
-     color: #777777;
+     color: #777777;    
      margin-left: auto;
      margin-right: auto;
           
@@ -87,7 +87,7 @@ section {
     background: #ffffff;
     margin: 40px 35px 60px 30px;
     padding: 20px;
-    border: 0px;
+    border:  1px #dddddd solid;
     border-radius: 6px;
  
 }
@@ -123,8 +123,17 @@ aside {
 
 }
 
+#hangman1 {
+    
+    background-color: #4eeee5;
+    position: absolute;
+    bottom: 10px ;
+
+}
+
 .pictures {
 
+    
     margin: 20px;
 
 }
